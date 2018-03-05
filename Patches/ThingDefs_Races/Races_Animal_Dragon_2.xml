@@ -6,6 +6,10 @@
 			<li Class="CombatExtended.PatchOperationFindMod">
 				<modName>Dragon Mod</modName>
 			</li>
+			<li Class="ModCheck.FindFile">
+				<modName>Dragon Mod</modName>
+				<file>Races_Animal_Dragon_2.xml</file>
+			</li>
 	
 			<!-- Basilisk_Race -->
 			<li Class="PatchOperationAddModExtension">
@@ -33,22 +37,31 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>17</power>
+							<capacities>
+								<li>Slash</li>
+								<li>ToxicBite</li>
+							</capacities>
+							<power>14</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.4</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>17</power>
+							<capacities>
+								<li>Slash</li>
+								<li>ToxicBite</li>
+							</capacities>
+							<power>14</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.4</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+								<li>ToxicBite</li>
+							</capacities>
 							<power>20</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -85,7 +98,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
 							<capacities><li>Slash</li></capacities>
-							<power>35</power>
+							<power>40</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.8</armorPenetration>
@@ -93,14 +106,14 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
 							<capacities><li>Slash</li></capacities>
-							<power>35</power>
+							<power>40</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.8</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>42</power>
+							<power>46</power>
 							<cooldownTime>2.9</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetration>1.0</armorPenetration>
@@ -136,7 +149,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
 							<capacities><li>Slash</li></capacities>
-							<power>32</power>
+							<power>36</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.75</armorPenetration>
@@ -144,14 +157,14 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
 							<capacities><li>Slash</li></capacities>
-							<power>32</power>
+							<power>36</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 							<armorPenetration>0.75</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>40</power>
+							<power>45</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetration>0.95</armorPenetration>
